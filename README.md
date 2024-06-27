@@ -14,6 +14,7 @@ Very small library for stm32g4-series microcontroller to request power from USB 
 - You can't change requested voltage on the fly (not too hard to implement)
 - Power source should provide fixed capability with required voltage, variable PDOs are not supported (easy to add)
 - Supports only `stm32g4`, but it's easily extendable to `stm32g0` family as well
+- No retries or proper error handling, we assume that connection is stable
 
 # Usage
 
